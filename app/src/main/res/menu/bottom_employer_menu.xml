@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_jobs"
+        android:enabled="true"
+        android:icon="@drawable/ic_business_center_black_24dp"
+        android:title="@string/jobs_string"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_helps"
+        android:enabled="true"
+        android:icon="@drawable/ic_help_black_24dp"
+        android:title="@string/helps_string"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_services"
+        android:enabled="true"
+        android:icon="@drawable/ic_people_black_24dp"
+        android:title="@string/services_string"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_transports"
+        android:enabled="true"
+        android:icon="@drawable/ic_directions_car_black_24dp"
+        android:title="@string/transports_string"
+        app:showAsAction="ifRoom" />
+
+</menu>

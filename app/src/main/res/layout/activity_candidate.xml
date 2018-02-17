@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="biz.eastservices.suara.CandidateActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:titleTextColor="@android:color/white"
+            android:theme="@style/GalaxyZooThemeToolbarDarkOverflow"
+            app:theme="@style/ToolbarColoredBackArrow"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            ></android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_below="@+id/app_bar"
+        android:layout_above="@+id/bottom_nav_candidate"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+</RelativeLayout>
